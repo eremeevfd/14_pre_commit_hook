@@ -1,2 +1,5 @@
 #!/bin/sh
-python3 tests.py
+if git diff --cached --name-only | grep "quadratic_equation.py"
+then
+    python3 tests.py
+fi
