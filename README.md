@@ -1,9 +1,10 @@
 # 14_pre_commit_hook
-## What is done
-Added pre-commit hook to automatically run tests when trying to commit.
+## Description
+
+Script contains pre-commit hook that runs tests before comitting to your repo.
+If it doesn't pass any test, your commit will be failed.
+
 ## Installation
-1. Clone repository. 
-2. Launch termial from its base direcory.
-3. Enter <code>ln -s ../../pre-commit .git/hooks/pre-commit</code> to install
-pre-commit hook.
-4. Thank you!
+
+To start using pre-commit hook move <code>pre-commit</code> file to <code>.git/hooks</code> 
+directory of project.
